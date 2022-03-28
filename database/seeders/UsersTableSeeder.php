@@ -24,6 +24,7 @@ class UsersTableSeeder extends Seeder
                 'name' => 'Isaac Oduh',
                 'email' => 'ioduh@mail.com',
                 'password' => bcrypt('password'),
+                'role' => 1,
                 'created_at' => $now,
                 'updated_at' => $now,
             ],
